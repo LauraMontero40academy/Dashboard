@@ -1,0 +1,62 @@
+/*clases*/
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .carousel-item{
+     height: 598px;
+    }
+
+    .carousel-inner img{
+        height: 600px;
+        width: 768px; 
+    }
+}
+
+.collapse a{
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.textoCarrusel{
+    font-family: tahoma;
+}
+
+.tituloEstilo{
+    font-family: Georgia;
+    padding-top: 65px;
+    text-align:center;
+}
+
+.titulo2Estilo{
+    font-family: Monserrat;
+    padding-bottom: 20px;
+    text-align:center;   
+}
+
+/*id*/
+
+#botonCompra{
+    background-color: rgba(245, 185, 185, 0.904);
+    border: solid rgba(245, 185, 185, 0.904);
+    border-radius: 11.2639px;
+    color: black;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+#carta{
+    background-color:rgba(248, 245, 245, 0.747);
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 29px;
+    padding: 20px;
+    position: relative;
+    text-align:center;  
+}
+
+#centrarBotones{
+    text-align: center;
+}
